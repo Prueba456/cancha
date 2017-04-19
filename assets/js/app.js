@@ -9,10 +9,18 @@ var arco2 = document.createElement("div");
 arco2.setAttribute("id","arcoIzquierdo");
 var circulo = document.createElement("div");
 circulo.setAttribute("id","circulo");
-
+var pelota1 = document.createElement("div");
+pelota1.setAttribute("id","p1");
+var pelota2 = document.createElement("div");
+pelota2.setAttribute("id","p2");
+var pelota3 = document.createElement("div");
+pelota3.setAttribute("id","p3");
 
 contenedor.appendChild(cancha);
 cancha.appendChild(areaLinea);
 areaLinea.appendChild(arco1);
 areaLinea.appendChild(arco2);
 areaLinea.appendChild(circulo);
+areaLinea.appendChild(pelota1);
+areaLinea.appendChild(pelota2);
+areaLinea.appendChild(pelota3);
